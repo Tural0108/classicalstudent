@@ -1,0 +1,3 @@
+C:/Programming/Lesson_01/build/CMakeFiles/MadnessShapes.dir
+C:/Programming/Lesson_01/build/CMakeFiles/edit_cache.dir
+C:/Programming/Lesson_01/build/CMakeFiles/rebuild_cache.dir
