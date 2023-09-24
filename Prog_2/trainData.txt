@@ -1,0 +1,11 @@
+10
+coal 1
+wood 2
+coal 3
+wood 4
+wood 5
+coal 6
+wood 7
+wood 8
+wood 9
+coal 10
