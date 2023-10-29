@@ -1,0 +1,3 @@
+C:/Programming/classicalstudent/Prog_4/Prim_1/build/CMakeFiles/Prim_1.dir
+C:/Programming/classicalstudent/Prog_4/Prim_1/build/CMakeFiles/edit_cache.dir
+C:/Programming/classicalstudent/Prog_4/Prim_1/build/CMakeFiles/rebuild_cache.dir
