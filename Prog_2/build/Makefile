@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Programming\Prog_2_test
+CMAKE_SOURCE_DIR = C:\Programming\classicalstudent\Prog_2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Programming\Prog_2_test\build
+CMAKE_BINARY_DIR = C:\Programming\classicalstudent\Prog_2\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\Prog_2_test\build\CMakeFiles C:\Programming\Prog_2_test\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\classicalstudent\Prog_2\build\CMakeFiles C:\Programming\classicalstudent\Prog_2\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\Prog_2_test\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Programming\classicalstudent\Prog_2\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named lesson_02
+# Target rules for targets named Prog_2
 
 # Build rule for target.
-lesson_02: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lesson_02
-.PHONY : lesson_02
+Prog_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Prog_2
+.PHONY : Prog_2
 
 # fast build rule for target.
-lesson_02/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/build
-.PHONY : lesson_02/fast
+Prog_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/build
+.PHONY : Prog_2/fast
 
 src/Train.obj: src/Train.cpp.obj
 .PHONY : src/Train.obj
 
 # target to build an object file
 src/Train.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/Train.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/Train.cpp.obj
 .PHONY : src/Train.cpp.obj
 
 src/Train.i: src/Train.cpp.i
@@ -141,7 +141,7 @@ src/Train.i: src/Train.cpp.i
 
 # target to preprocess a source file
 src/Train.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/Train.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/Train.cpp.i
 .PHONY : src/Train.cpp.i
 
 src/Train.s: src/Train.cpp.s
@@ -149,7 +149,7 @@ src/Train.s: src/Train.cpp.s
 
 # target to generate assembly for a file
 src/Train.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/Train.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/Train.cpp.s
 .PHONY : src/Train.cpp.s
 
 src/TrainMaker.obj: src/TrainMaker.cpp.obj
@@ -157,7 +157,7 @@ src/TrainMaker.obj: src/TrainMaker.cpp.obj
 
 # target to build an object file
 src/TrainMaker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/TrainMaker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/TrainMaker.cpp.obj
 .PHONY : src/TrainMaker.cpp.obj
 
 src/TrainMaker.i: src/TrainMaker.cpp.i
@@ -165,7 +165,7 @@ src/TrainMaker.i: src/TrainMaker.cpp.i
 
 # target to preprocess a source file
 src/TrainMaker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/TrainMaker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/TrainMaker.cpp.i
 .PHONY : src/TrainMaker.cpp.i
 
 src/TrainMaker.s: src/TrainMaker.cpp.s
@@ -173,7 +173,7 @@ src/TrainMaker.s: src/TrainMaker.cpp.s
 
 # target to generate assembly for a file
 src/TrainMaker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/TrainMaker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/TrainMaker.cpp.s
 .PHONY : src/TrainMaker.cpp.s
 
 src/Wagon.obj: src/Wagon.cpp.obj
@@ -181,7 +181,7 @@ src/Wagon.obj: src/Wagon.cpp.obj
 
 # target to build an object file
 src/Wagon.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/Wagon.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/Wagon.cpp.obj
 .PHONY : src/Wagon.cpp.obj
 
 src/Wagon.i: src/Wagon.cpp.i
@@ -189,7 +189,7 @@ src/Wagon.i: src/Wagon.cpp.i
 
 # target to preprocess a source file
 src/Wagon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/Wagon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/Wagon.cpp.i
 .PHONY : src/Wagon.cpp.i
 
 src/Wagon.s: src/Wagon.cpp.s
@@ -197,7 +197,7 @@ src/Wagon.s: src/Wagon.cpp.s
 
 # target to generate assembly for a file
 src/Wagon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/Wagon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/Wagon.cpp.s
 .PHONY : src/Wagon.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -205,7 +205,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -213,7 +213,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -221,7 +221,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\lesson_02.dir\build.make CMakeFiles/lesson_02.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Prog_2.dir\build.make CMakeFiles/Prog_2.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -232,7 +232,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... lesson_02
+	@echo ... Prog_2
 	@echo ... src/Train.obj
 	@echo ... src/Train.i
 	@echo ... src/Train.s

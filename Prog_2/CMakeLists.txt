@@ -7,4 +7,4 @@ file(GLOB_RECURSE SOURCES ${PROJECT_SOURCE_DIR}/src/*.cpp)
 list(REMOVE_ITEM SOURCES ${PROJECT_SOURCE_DIR}/src/main.cpp)
 
 message(SOURCES="${SOURCES}")
-add_executable(lesson_02 src/main.cpp ${SOURCES})
+add_executable(Prog_2 src/main.cpp ${SOURCES})

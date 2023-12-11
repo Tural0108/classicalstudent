@@ -1,4 +1,4 @@
-CMakeFiles/lesson_02.dir/src/main.cpp.obj: \
+CMakeFiles/Prog_2.dir/src/main.cpp.obj: \
  C:\Programming\classicalstudent\Prog_2\src\main.cpp \
  C:/msys64/ucrt64/include/c++/13.1.0/iostream \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \

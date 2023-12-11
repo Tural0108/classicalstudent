@@ -1,8 +1,8 @@
 CMakeFiles/lesson_02.dir/src/TrainMaker.cpp.obj: \
- C:\Programming\Prog_2_test\src\TrainMaker.cpp \
- C:\Programming\Prog_2_test\src\TrainMaker.hpp \
- C:\Programming\Prog_2_test\src\Train.hpp \
- C:\Programming\Prog_2_test\src\Wagon.hpp \
+ C:\Programming\classicalstudent\Prog_2\src\TrainMaker.cpp \
+ C:\Programming\classicalstudent\Prog_2\src\TrainMaker.hpp \
+ C:\Programming\classicalstudent\Prog_2\src\Train.hpp \
+ C:\Programming\classicalstudent\Prog_2\src\Wagon.hpp \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
  C:/msys64/ucrt64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \

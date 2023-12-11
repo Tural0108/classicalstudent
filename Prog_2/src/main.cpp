@@ -7,26 +7,46 @@
 
 using namespace std; //CAN'T STOP ME NOW
 
+
 int main(int, char**){
 
     Train tr;
-
     ConsoleTrain cTrain;
-
+    FileTrain fTrain;
+int sw;
+    std::cout << "Enter 1 for Console Input, Enter 2 for File Input\n";
+    std::cin>> sw;
+    switch (sw)
+    {
+    // выбор через консоль
+    case 1:
     //cTrain.setup();
     cTrain.setupWithTypes(std::vector<std::string>{"wood","coal"});
 
     tr = cTrain.getTrain();
 
     tr.info();
-
-    FileTrain fTrain;
-
+        break;
+    // данные из файла
+    case 2:
     fTrain.setup("trainData.txt");
 
     tr = fTrain.getTrain();
 
     tr.info();
+        break;
+
+    // в случае если не указываешь кол-во вагонов
+    default:
+    fTrain.setup("trainData.txt");
+
+    tr = fTrain.getTrain();
+
+    tr.info();
+
+        break;
+    }
+   
 
     int sz = tr.getSize();
 

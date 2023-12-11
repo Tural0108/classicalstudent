@@ -1,4 +1,4 @@
-CMakeFiles/lesson_02.dir/src/Wagon.cpp.obj: \
+CMakeFiles/Prog_2.dir/src/Wagon.cpp.obj: \
  C:\Programming\classicalstudent\Prog_2\src\Wagon.cpp \
  C:\Programming\classicalstudent\Prog_2\src\Wagon.hpp \
  C:/msys64/ucrt64/include/c++/13.1.0/string \
